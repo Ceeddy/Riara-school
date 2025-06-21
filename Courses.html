@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Riara Website Design</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+<section class="sub-header courses-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Courses.html">Course</a></li>
+                <li><a href="Blogs.html">Blog</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Courses</h1>
+</section>
+
+<!-- courses Section -->
+
+<section class="course">
+    <h1>Our Courses</h1>
+    <p>We offer a variety of courses to suit every child's needs.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>STEM Subjects</h3>
+            <p>Our learners explore Mathematics, Science, and ICT in a fun, 
+                hands-on way—encouraging critical thinking and curiosity about the world.</p>
+        
+        </div>
+        <div class="course-col">
+            <h3>Languages & Literacy</h3>
+            <p>We build strong communication skills through English, Kiswahili, and reading 
+                programs that spark creativity and confidence in expression.</p>
+        </div>
+        <div class="course-col">
+            <h3>Creative & Life Skills</h3>
+            <p>From Art and Music to Physical Education and Life Skills, we nurture talents, 
+                teamwork, and values that shape well-rounded students.</p>
+        </div>
+    </div>
+    
+</section>
+
+ <!---Facilities-->
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>We provide state-of-the-art facilities to enhance the learning experience.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>World Class Library</h3>
+            <p>A well-stocked library with a wide range of books and resources.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Equipped with modern tools for hands-on learning in science.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>Tasty and healthy food</h3>
+            <p>Various sports facilities to promote physical fitness and teamwork.</p>
+        </div>
+
+    </div>
+    
+
+
+</section>
+
+<!-- Footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are committed to providing quality education and resources for children to thrive in a digital world.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Created by Ced <i class="fa-regular fa-heart"></i></p>
+</section>
+
+
+<!-- Script toggle menu-->
+
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showMenu() {
+        navlinks.style.right = "0";
+    }
+    function hideMenu() {
+        navlinks.style.right = "-200px";
+    }
+
+     
+</script>
+</body>
+
+</html>
